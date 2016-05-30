@@ -24,7 +24,11 @@
                 android:textAlignment="center"
                 android:textSize="50sp"
                 android:text="@string/houses"
+<<<<<<< HEAD
                 android:id="@+id/texthouse"
+=======
+                android:testsize="50sp"
+>>>>>>> 5cb0a4cd50afe9bf20824c8c65b8b5dd52b734a8
                 android:textColor="@android:color/white" />
         </LinearLayout>
 
