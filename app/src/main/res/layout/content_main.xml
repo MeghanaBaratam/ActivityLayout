@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:text="@string/houses"
-                android:testsize="40sp"
+                android:testsize="50sp"
                 android:textColor="@android:color/white" />
         </LinearLayout>
 
