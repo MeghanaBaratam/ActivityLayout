@@ -1,5 +1,7 @@
 package com.example.meghana.activitylayout;
 
+import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -10,6 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.LinkedList;
 
@@ -34,11 +37,22 @@ public class MainActivity extends AppCompatActivity {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
 
+
+
+
                 listView = (ListView)findViewById(R.id.list);
                 setData();
                 setListViewAdapter();
             }
         });
+
+
+        TextView tv = (TextView)findViewById(R.id.texthouse);
+
+        Log.i("text", "onClick: ");
+        Typeface tf = Typeface.createFromAsset(getAssets(),"fonts/Roboto-Italic.ttf");
+        tv.setTypeface(tf);
+        tv.setShadowLayer(1, 2, 5, Color.BLUE);
     }
 
     @Override

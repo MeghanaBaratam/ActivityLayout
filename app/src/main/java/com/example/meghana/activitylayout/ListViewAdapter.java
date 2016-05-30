@@ -83,9 +83,13 @@ private class ViewHolder {
     private ImageView type;
     private TextView name;
 
+
+
+
     public ViewHolder(View v) {
         type = (ImageView) v.findViewById(R.id.type_image);
         name=(TextView)v.findViewById(R.id.name);
+
 
     }
 }
